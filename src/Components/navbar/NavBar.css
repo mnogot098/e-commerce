@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+}
+
+.nav-logo img {
+    height: 60px;
+}
+
+.nav-logo a {
+    text-decoration: none;
+}
+
+.nav-logo p {
+    color: salmon;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-menu hr {
+    color:salmon;
+    width: 40px;
+}
+
+.nav-menu  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.nav-login-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-login-card button {
+    
+    width: 100px;
+    height: 40px;
+    color:gray;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid transparent; /* Start with transparent border */
+    transition: border-bottom 0.3s ease; 
+}
+
+.nav-login-card button:hover{
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.nav-card-count {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: -55px;
+    background-color: red;
+    color:white;
+}

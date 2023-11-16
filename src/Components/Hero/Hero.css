@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+.hero {
+    height: 89vh;
+  background: linear-gradient(180deg, white, #d3087822 60%);
+  display: flex;
+}
+
+.hero-left {
+    flex: 1;
+  justify-content: center;
+  margin-top: 200px;
+  align-items: center;
+  padding-left: 100px;
+  line-height: 1.1;
+}
+
+.hero-left p {
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+}
+.hero-left h3 {
+  margin: 20px 0px;
+  line-height: 1.5;
+}
+.hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hand-icon img {
+  width: 100px;
+}

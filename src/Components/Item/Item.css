@@ -1,0 +1,43 @@
+.item {
+  width: 350px;
+}
+.item p {
+  margin: 6px 0px;
+}
+
+.item-prices {
+  display: flex;
+  gap: 20px;
+}
+
+.item-price-new {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item-price-old {
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.details {
+  display: flex;
+  justify-content: flex-end;
+}
+.details button {
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(241, 159, 7);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.details button:hover {
+  background-color: rgb(205, 136, 7);
+  transition-duration: 1s;
+  -o-transition-timing-function: ease-in-out;
+}
